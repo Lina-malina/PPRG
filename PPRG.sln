@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab-1", "Lab-1.vcxproj", "{2A71EB97-102D-4670-937D-E86AFA0FC59A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab-1", "Lab-1\Lab-1.vcxproj", "{2A71EB97-102D-4670-937D-E86AFA0FC59A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pizza", "..\Pizza\Pizza.vcxproj", "{57628123-7265-4A6B-9E31-35578913F9F2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pizza", "Pizza\Pizza.vcxproj", "{57628123-7265-4A6B-9E31-35578913F9F2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab-2", "..\Lab-2\Lab-2.vcxproj", "{52CBA990-0C2D-4A8A-8DB9-ECD886A4D07E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab-2", "Lab-2\Lab-2.vcxproj", "{52CBA990-0C2D-4A8A-8DB9-ECD886A4D07E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

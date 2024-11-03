@@ -2,7 +2,9 @@
 
 int main()
 {
+    printSum();
     printFigures();
+    printYearInfo();
 
     return 0;
 }

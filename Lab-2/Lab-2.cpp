@@ -12,7 +12,7 @@ void printSum() {
 	int sum = 0;
 	int result = 0;
 
-	for (int i = 1; i <= 5; i++) {
+	for (int i = 1; i <= n; i++) {
 		sum += i;
 		result += sum;
 	}
@@ -22,52 +22,36 @@ void printSum() {
 
 void printFigures() {
 	int a, b;
-	string line;
-	string column;
 
 	cout << "Please enter two numbers\n";
 	cin >> a >> b;
 	cout << "You have entered numbers: " << a << " and " << b << endl;
 
 	for (int i = 1; i <= a; i++) {
-		line += "*";
+		cout << "*";
 	}
 
-	cout << line << endl;
+	cout << endl << endl;
+
+	for (int i = 1; i <= b; i++) {
+		cout << "*\n";
+	}
 
 	cout << endl;
 
 	for (int i = 1; i <= b; i++) {
-		column += "*\n";
-	}
-
-	cout << column << endl;
-
-	cout << endl;
-
-	// This is cheating, I know
-	//for (int i = 1; i <= b; i++) {
-	//	cout << line << endl;
-	//}
-
-	// This one is more honest
-	for (int i = 1; i <= b; i++) {
-		cout << endl;
-
-		for (int j = 1; j <= b; j++) {
+		for (int j = 1; j <= a; j++) {
 			cout << "*";
 		}
+		cout << endl;
 	}
 
 	cout << endl;
 
 	for (int i = 1; i <= b; i++) {
-		cout << endl;
-
 		for (int j = 1; j <= a; j++) {
 			if (i == 1 || i == b) {
 				cout << "*";
-
 			}
 			else if (j == 1 || j == a) {
 				cout << "*";
@@ -76,6 +60,28 @@ void printFigures() {
 				cout << " ";
 			}
 		}
+		cout << endl;
+	}
+
+	cout << endl;
+
+	for (int i = 1; i <= a; i++) {
+		for (int j = 1; j <= i; j++) {
+			cout << '*';
+		}
+		cout << endl;
+	}
+
+	cout << endl;
+
+	for (int i = a; i >= 1; i--) {
+		for (int j = 1; j <= a; j++) {
+			string symbol;
+
+			symbol = a - i >= j ? " " : "*";
+			cout << symbol;
+		}
+		cout << endl;
 	}
 }
 
