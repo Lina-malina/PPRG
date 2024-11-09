@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pizza", "Pizza\Pizza.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab-2", "Lab-2\Lab-2.vcxproj", "{52CBA990-0C2D-4A8A-8DB9-ECD886A4D07E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab-3", "Lab-3\Lab-3.vcxproj", "{E075BA66-B1B6-4332-9BE2-0B8A6FD3E5B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{52CBA990-0C2D-4A8A-8DB9-ECD886A4D07E}.Release|x64.Build.0 = Release|x64
 		{52CBA990-0C2D-4A8A-8DB9-ECD886A4D07E}.Release|x86.ActiveCfg = Release|Win32
 		{52CBA990-0C2D-4A8A-8DB9-ECD886A4D07E}.Release|x86.Build.0 = Release|Win32
+		{E075BA66-B1B6-4332-9BE2-0B8A6FD3E5B5}.Debug|x64.ActiveCfg = Debug|x64
+		{E075BA66-B1B6-4332-9BE2-0B8A6FD3E5B5}.Debug|x64.Build.0 = Debug|x64
+		{E075BA66-B1B6-4332-9BE2-0B8A6FD3E5B5}.Debug|x86.ActiveCfg = Debug|Win32
+		{E075BA66-B1B6-4332-9BE2-0B8A6FD3E5B5}.Debug|x86.Build.0 = Debug|Win32
+		{E075BA66-B1B6-4332-9BE2-0B8A6FD3E5B5}.Release|x64.ActiveCfg = Release|x64
+		{E075BA66-B1B6-4332-9BE2-0B8A6FD3E5B5}.Release|x64.Build.0 = Release|x64
+		{E075BA66-B1B6-4332-9BE2-0B8A6FD3E5B5}.Release|x86.ActiveCfg = Release|Win32
+		{E075BA66-B1B6-4332-9BE2-0B8A6FD3E5B5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
