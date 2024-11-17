@@ -1,10 +1,10 @@
 #include <iostream>;
+#include <iomanip>;
 
 using namespace std;
 
-void calculate() {
-	float x;
-	float y;
+int calculate() {
+	float x, y;
 
 	cout << "Please enter two numbers\n";
 	cin >> x >> y;
@@ -14,13 +14,23 @@ void calculate() {
 	float sum = x + y;
 	float difference = x - y;
 	float multiplying = x * y;
-	float division = x / y;
+	float division;
 
+	if (y != 0) {
+		division = x / y;
+	}
+	else {
+		cout << "Division by 0 is prohibited." << endl;
+		return 1;
+	}
+
+	cout << fixed << setprecision(2);
 	cout << "x + y = " << sum << endl;
 	cout << "x - y = " << difference << endl;
 	cout << "x * y = " << multiplying << endl;
 	cout << "x / y = " << division << endl;
 
+	return 0;
 }
 
 int printSymbols() {
@@ -38,10 +48,8 @@ int printSymbols() {
 }
 
 int solveQuadraticEquation() {
-	int a, b, c;
-	int delta;
-	int solution1;
-	int solution2;
+	int a, b, c, delta;
+	float solution1, solution2;
 
 	cout << "The Standart form of Qadratic Equation looks like ax^2 + bx + c = 0 \n";
 	cout << "Please enter values for a, b, c \n";
@@ -70,45 +78,35 @@ int solveQuadraticEquation() {
 	}
 };
 
+int factorial(int n) {
+	int result = 1;
+
+	if (n == 0 || n == 1) {
+		return result;
+	}
+
+	for (int i = 2; i <= n; i++) {
+		result *= i;
+	}
+
+	return result;
+}
+
 void printPascalTriangle() {
 	int rows;
-	int numbersInRow;
 
 	cout << "Please enter the number of rows for the Pascal's Triangle \n";
 	cin >> rows;
 
-	int i;
+	cout << endl;
 
-	for (i = 0; i < rows; i++) {
-		numbersInRow = i + 1;
-
-		for (int j = 1; j <= numbersInRow; j++) {
-			if (j == 1 || j == numbersInRow) {
-				cout << "1";
-			}
-			else if (j == 2 || j == numbersInRow - 1) {
-				cout << i;
-			}
-			else if (j == 3) {
-				cout << i * (i - 1) / 2;
-			}
-			else if (j == 4) {
-
-			}
-			else {
-				int rowFactorial;
-				int number
-			}
+	for (int i = 0; i <= rows; i++) {
+		for (int j = 0; j <= i; j++) {
+			cout << factorial(i) / (factorial(j) * factorial(i - j)) << " ";
 		}
 		cout << endl;
 	}
 };
-
-int factorial(int n) {
-	int result;
-
-
-}
 
 void typeCasting() {
 	int number;

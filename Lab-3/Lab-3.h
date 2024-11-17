@@ -1,4 +1,4 @@
-void calculate();
+int calculate();
 int printSymbols();
 int solveQuadraticEquation();
 void printPascalTriangle();

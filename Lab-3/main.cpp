@@ -8,5 +8,7 @@ int main()
     //solveQuadraticEquation();
     printPascalTriangle();
 
+    //typeCasting();
+
     return 0;
 }
