@@ -1,0 +1,2 @@
+int getLargestNumberInArray();
+int getFrequientNumberInArray();
