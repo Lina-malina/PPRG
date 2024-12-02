@@ -1,2 +1,3 @@
 int getLargestNumberInArray();
-int getFrequientNumberInArray();
+int getFrequentNumberInArray();
+void printMatrix();
