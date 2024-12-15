@@ -1,0 +1,2 @@
+void getVectorInfo();
+void getArrayInfo();
